@@ -7,4 +7,7 @@ add_executable(cteht
         ex3.c
         ex1.c
         ex2.c
+        ex4.c
+        ex5.c
+        ex6.c
 )
