@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* Valikon tulostus */
+// tulostaa valikon //
 void tulosta_valikko(void) {
     printf("\nValitse toiminto:\n");
     printf("1) Heita D6\n");
@@ -11,7 +11,7 @@ void tulosta_valikko(void) {
     printf("3) Lopeta\n");
 }
 
-/* Lukee valinnan 1–3 ja validoi syotteen. */
+// Lukee valinnan 1–3 ja validoi syotteen. //
 int lue_valinta(void) {
     int valinta;
     int ok;
@@ -63,7 +63,7 @@ int main(void) {
         } else if (valinta == 2) {
             tulos = heita_noppa(1, 10);
             printf("D10 tulos: %d\n", tulos);
-        } else { /* valinta == 3 */
+        } else {
             printf("Lopetetaan. Hei!\n");
             jatka = 0;
         }
