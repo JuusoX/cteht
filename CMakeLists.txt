@@ -19,4 +19,8 @@ add_executable(cteht
         ex13.c
         ex14.c
         ex15.c
+        ex16.c
+        ex17.c
+        18.c
+        ex18.c
 )
