@@ -22,4 +22,9 @@ add_executable(cteht
         ex16.c
         ex17.c
         ex18.c
+        ex19.c
+        ex20.c
+        ex20_debug.c
+        ex20_debug.h.c
+        ex21.c
 )
