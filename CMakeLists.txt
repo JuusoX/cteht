@@ -27,4 +27,5 @@ add_executable(cteht
         ex20_debug.c
         ex20_debug.h.c
         ex21.c
+        project/csv_reader.c
 )
